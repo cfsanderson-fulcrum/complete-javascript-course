@@ -122,6 +122,8 @@ const dolphinsScores = {
   set3: [97, 112, 101],
 };
 
+// const size = Object.keys(dolphinsScores.set1).length;
+
 const size = Object.keys(dolphinsScores.set1).length;
 
 const sum = dolphinsScores.set1.reduce((sum, current) => sum + current, 0);
